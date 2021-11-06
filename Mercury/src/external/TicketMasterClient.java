@@ -28,7 +28,7 @@ public class TicketMasterClient {
 	private static final String PATH = "/discovery/v2/events.json";
 	private static final String DEFAULT_KEYWORD = "event";
 	private static final int DEFAULT_RADIUS = 50; 
-	private static final String API_KEY = "jkphG68KygWYUZGowyVA1bKOG56CE0ir";
+	private static final String API_KEY = "..."; //input your TicketMaster API key here 
 	
 	public List<Item> search(double lat, double lon, String keyword){
 		
